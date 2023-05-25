@@ -1,13 +1,12 @@
 "use client"
 
-import { IconButton, Tooltip } from '@mui/material'
+import { IconButton, MenuItem, Tooltip } from '@mui/material'
 import React, { FC, useState } from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import { motion } from 'framer-motion'
 
 const NavInput: FC = () => {
     const [searchInput, setSearchInput] = useState<boolean>(false);
-    console.log(searchInput);
 
     return (
         <motion.div

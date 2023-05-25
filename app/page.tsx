@@ -1,9 +1,7 @@
-import NavBar from "@/containers/NavBar";
+import Providers from "@/providers/Providers";
 
 export default function Home() {
   return (
-    <div>
-      <NavBar />
-    </div>
+    <Providers />
   )
 }
